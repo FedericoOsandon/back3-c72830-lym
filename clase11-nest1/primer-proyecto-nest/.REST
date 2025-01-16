@@ -1,0 +1,16 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "first_name": "string",
+    "last_name": "string",
+    "email": "string",
+    "password": "string"   
+}
+###
+POST http://localhost:3000/users/1234?nombre=fede
+Content-Type: application/json
+
+{
+    "propiedad": "esto es una propiedad"
+}
